@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="ros_gt_msg" type="ros_gt_msg" name="publish_gt_msg" output="screen">
+  </node>
+</launch>
