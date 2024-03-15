@@ -234,7 +234,7 @@ int main(int argc, char **argv)
 				{
 					lift_msg.ctr_mode = rev[i].Data[2];
 					lift_msg.speed_rpm = rev[i].Data[3]|(rev[i].Data[4]<<8);
-					lift_msg.higgt = rev[i].Data[5]|(rev[i].Data[6]<<8);
+					lift_msg.hight = rev[i].Data[5]|(rev[i].Data[6]<<8);
 					lift_msg.lift_state = rev[i].Data[7];
 				}
 
