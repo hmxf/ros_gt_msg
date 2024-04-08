@@ -78,7 +78,7 @@ void SendSpeedToGt(u8 mode,s16 x,int y,u8 stop)
 	//写入数据
 	if(VCI_Transmit(VCI_USBCAN2, 0, 0, send, 1) == 1)
 	{
-		//printf("TX data successful!\n");
+		printf("TX data successful!\n");
 	}                  
 }
 
@@ -112,7 +112,7 @@ static void SendLift(u8 mode,s16 x,u8 clear_flag)
 	//写入数据
 	if(VCI_Transmit(VCI_USBCAN2, 0, 0, &lift_send, 1) == 1)
 	{
-		//printf("TX data successful!\n");
+		printf("TX data successful!\n");
 	}   
 
 }
